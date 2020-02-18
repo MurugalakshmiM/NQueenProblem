@@ -4,7 +4,6 @@ a.map((item, index) => {
     tempArray[index] = [...item];
 });
 let changedArray = [tempArray];
-a[0][0] = 'Q';
 let position = [[0, 0]];
 markQueen(position[0], [...a])
 function markQueen(pos, array) {
